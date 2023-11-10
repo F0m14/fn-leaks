@@ -1,131 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Fortnite Leaks</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0F0E13;
-      color: #fff;
-      margin: 0;
-      padding: 0;
-    }
+    <title>Fortnite Leaks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0F0E13;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 80%;
+            padding: 20px;
+            background-color: #212226;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            animation: slideFromBottom 0.5s ease-out;
+            text-align: center;
+        }
+        
+        .container img {
+          width: 50%;
+          height: auto;
+          border: 1px solid #fff;
+          border-radius: 50%;
+          margin: 20px auto;
+          display: block;
+        }
+        
+        table {
+            width: 100%;
+            border: 1px solid #fff;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #dddddd;
+        }
+        
+        th {
+            background-color: #363940;
+        }
 
-    header {
-      background-color: #000;
-      color: #fff;
-      padding: 10px;
-    }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
 
-    nav {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-    }
-
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav ul li {
-      display: inline;
-      margin-right: 10px;
-    }
-
-    section {
-      margin: 20px;
-    }
-
-    footer {
-      background-color: #000;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-
-    .home {
-      width: 80%;
-      height: auto;
-    }
-
-    .download-btn {
-      display: inline-block;
-      background-color: #4CAF50;
-      color: #fff;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s;
-    }
-
-    .download-btn:hover {
-      background-color: #45a049;
-    }
-    
-    li{
-      list-style: none;
-      margin-bottom: 10px;
-    }
-   .card {
-      width: 80%;
-      margin: 0 auto;
-      background-color: #1F1E24;
-      border-radius: 10px;
-      padding: 20px;
-      text-align: center;
-    }
-  
-    .card-content {
-      margin-bottom: 20px;
-    }
-  
-    .details-section {
-      text-align: center;
-    }
-  
-    .details-section h2 {
-      color: #fff;
-    }
-  
-    .details-section ul {
-      list-style-type: disc;
-      color: #fff;
-    }
-  </style>
+        a:hover {
+            background-color: #45a049;
+        }
+        
+        @keyframes slideFromBottom {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
-
 <body>
-  <section id="home">
-    <div class="card">
-      <div class="card-content">
-        <h1>Welcome to Fortnite Leaks App!</h1>
-        <p>Get the latest leaks, news, map updates, battle pass skins, and more!</p>
-        <p>App Version: 1.0</p>
-        <a href="fn-leaks-1-0.apk" class="download-btn" download>Download Now</a>
-      </div>
-      <div class="details-section">
-        <h2>Details</h2>
-        <p>Explore the details and features of our app:</p>
-        <ul>
-          <li>Real-time leaks from reliable sources.</li>
-          <li>Timely news and announcements.</li>
-          <li>Battle pass skins.</li>
-          <li>Updated map with new locations.</li>
-          <li>Connect with other players in the public chat.</li>
-          <li>Dedicated customer support for all your concerns.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    <div class="container">
+        <img src="fortnite_leaks.png">
+        <h1>Fortnite Leaks</h1>
+        
+        <p>Welcome to Fortnite Leaks, the ultimate source for all the latest leaks and updates in the world of Fortnite.</p>
+        
+        <h2>Application Details</h2>
+        
+        <table>
+            <tr>
+                <th>Application Name</th>
+                <td>Fortnite Leaks</td>
+            </tr>
+            <tr>
+                <th>App Size</th>
+                <td>+35MB</td>
+            </tr>
+            <tr>
+                <th>App Version</th>
+                <td>1.0</td>
+            </tr>
+            <tr>
+                <th>Last Update</th>
+                <td>10-11-2023</td>
+            </tr>
+            <tr>
+                <th>Availabled In</th>
+                <td>Android Only</td>
+            </tr>
+        </table>
 
-  <footer>
-    <p>&copy; 2023 Fortnite Leaks App. All rights reserved.</p>
-  </footer>
+        <a href="fortniteL.apk" download>Download Now</a>
+    </div>
 </body>
 </html>
