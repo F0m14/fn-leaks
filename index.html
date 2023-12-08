@@ -104,47 +104,37 @@
         
         <table>
             <tr>
-                <th>Application Name</th>
+                <th>Name</th>
                 <td>Fortnite Leaks</td>
             </tr>
             <tr>
-                <th>App Size</th>
+                <th>Size</th>
                 <td>35MB</td>
             </tr>
             <tr>
-                <th>App Version</th>
-                <td>1.0.1</td>
+                <th>Version</th>
+                <td>1.1</td>
             </tr>
             <tr>
                 <th>Last Update</th>
-                <td>24-11-2023</td>
+                <td>08-12-2023</td>
             </tr>
             <tr>
-                <th>Available In</th>
-                <td>Android Only</td>
+                <th>Requirements</th>
+                <td>Android 7.0, RAM 2GB And Up</td>
+            </tr>
+            <tr>
+              <th>Offered By</th>
+              <td>- X D -</td>
+            </tr>
+            <tr>
+              <th>Liscence</th>
+              <td>FREE</td>
             </tr>
         </table>
         <button id="downloadButton" onclick="downloadApk()">Download Now</button>
 
-        <script>
-            function downloadApk() {
-                const apkUrl = 'fortniteL.apk';
-                const button = document.createElement('a');
-                button.href = apkUrl;
-                button.download = 'fortniteL.apk';
-                document.body.appendChild(button);
-                button.click();
-                document.body.removeChild(button);
-            }
-
-            const isAndroid = /android|avc1/i.test(navigator.userAgent);
-            const downloadButton = document.getElementById('downloadButton');
-
-            if (!isAndroid) {
-                downloadButton.disabled = true;
-                downloadButton.innerHTML = 'Unavailable In Your Device';
-            }
-        </script>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
